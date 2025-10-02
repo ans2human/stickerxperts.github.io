@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+
+header, footer {
+  background: #212121;
+  color: #fff;
+  padding: 1em 2em;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 1.5em;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: #fff7e6;
+  padding: 3em 2em;
+  text-align: center;
+}
+
+.cta {
+  display: inline-block;
+  background: #ffca28;
+  color: #212121;
+  padding: 0.7em 2em;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+section {
+  margin: 2em auto;
+  max-width: 800px;
+  background: #fff;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px #0001;
+}
+
+.gallery-images {
+  display: flex;
+  gap: 1em;
+}
+
+.gallery-images img {
+  width: 32%;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px #0002;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 1em;
+  margin: 0.6em 0;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+form button {
+  background: #ffa000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.95em;
+}
